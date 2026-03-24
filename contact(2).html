@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Booking — Ty Brown AV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">TY BROWN <span>AV</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Book Now</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero">
+  <span class="section-label">Let's Work Together</span>
+  <h1>Book Ty Brown AV</h1>
+  <p>Fill out the form below and we'll get back to you within 24 hours with a custom quote for your event.</p>
+</div>
+
+<section style="background: var(--bg); padding: 100px 60px;">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>Whether you're planning a corporate event, a wedding, a church service, or a private party — we'd love to hear about it. No project is too big or too small.</p>
+      <div class="contact-details">
+        <div class="contact-detail">
+          <span class="contact-detail-icon">📍</span>
+          <span>Tampa, FL · Available Regionally & Nationwide</span>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">⚡</span>
+          <span>Typical response within 24 hours</span>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">📅</span>
+          <span>Available for single events & ongoing contracts</span>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">💬</span>
+          <span>Free consultation for every inquiry</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 48px;">
+        <h3 style="font-family: 'Bebas Neue'; font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 20px;">What Happens Next</h3>
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">1</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Submit Your Inquiry</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">Tell us about your event, date, and what you need.</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">2</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Free Consultation</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">We'll connect to discuss your vision and requirements in detail.</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">3</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Custom Quote</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">Receive a detailed proposal tailored to your event and budget.</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">4</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Confirm & Deliver</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">Lock in your date and let us handle the rest.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <h3>Request a Quote</h3>
+      <form action="https://formspree.io/f/meerylab" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" placeholder="John Smith" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="john@email.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="(813) 555-0000">
+          </div>
+          <div class="form-group">
+            <label for="event_date">Event Date</label>
+            <input type="date" name="event_date" id="event_date">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Service Needed</label>
+          <select name="service" id="service" required>
+            <option value="" disabled selected>Select a service...</option>
+            <option value="live_sound">Live Sound Engineering</option>
+            <option value="av_production">AV Production & Events</option>
+            <option value="residential">Residential / Private Event</option>
+            <option value="lighting">Lighting Design</option>
+            <option value="full_production">Full Production Package</option>
+            <option value="other">Other / Not Sure Yet</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="venue">Venue / Location</label>
+          <input type="text" name="venue" id="venue" placeholder="Venue name or city">
+        </div>
+        <div class="form-group">
+          <label for="message">Tell Us About Your Event</label>
+          <textarea name="message" id="message" placeholder="Describe your event, estimated guest count, any special requirements, and your budget range..." required></textarea>
+        </div>
+        <input type="submit" value="Send Inquiry →" class="btn-primary" style="width: 100%; font-size: 0.9rem; cursor: pointer; border: none;">
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">
+    <a href="index.html" class="nav-logo">TY BROWN <span>AV</span></a>
+    <p>Professional Audio Visual services based in Tampa, FL.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Services</h4>
+    <ul>
+      <li><a href="services.html">Live Sound Engineering</a></li>
+      <li><a href="services.html">AV Production</a></li>
+      <li><a href="services.html">Residential Events</a></li>
+      <li><a href="services.html">Lighting Design</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Navigate</h4>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Ty</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">&copy; 2025 Ty Brown AV · Tampa, FL · All Rights Reserved</div>
+
+</body>
+</html>
